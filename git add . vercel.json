@@ -1,0 +1,8 @@
+git init
+git branch -M main
+git remote add origin https://github.com/Hazrat90/castbloom.git
+
+
+
+git commit -m "Add vercel.json for Vercel deployment"
+git push -u origin main
