@@ -1,19 +1,15 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "vite.config.ts",
-      "use": "@vercel/static-build",
-      "config": {}
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "buildCommand": "npm run build",
+  "installCommand": "npm install",
   "outputDirectory": "dist",
-  "installCommand": "npm install"
+  "framework": "vite",
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
+
+git add vercel.json
+git commit -m "Fix vercel.json build settings for Vite"
+git push origin main
+
