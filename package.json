@@ -1,4 +1,4 @@
-{
+{{
   "name": "castbloom",
   "version": "1.0.0",
   "private": true,
@@ -8,15 +8,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "^11.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.5",
-    "autoprefixer": "^10.4.15",
-    "postcss": "^8.4.29",
+    "@types/react-dom": "^18.3.2",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.9",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
     "tailwindcss": "^3.3.3",
     "typescript": "^5.3.3",
     "vite": "^5.0.0"
