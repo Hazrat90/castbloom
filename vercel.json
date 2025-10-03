@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "buildCommand": npm install -D @vitejs/plugin-react
+  "buildCommand":npm install -D typescript @types/react @types/react-dom
+
   "installCommand": "npm install",
   "outputDirectory": "dist",
   "framework": "vite",
